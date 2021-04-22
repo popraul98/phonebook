@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/wolf.jpg");
+    background-attachment: fixed;
+    margin-top: 0;
+}
+
+.container {
+    margin: 2% 15%;
+    height: 100%;
+    background-color: #d1c7a5;
+    border-radius: 15px;
+    min-height: 150px;
+    padding: 1px 10px;
+    height: auto;
+}
+
+.welcome-msg {
+    float: left;
+    width: 50%;
+    margin: 20px 0 10px 0;
+    font-family: 'Nunito';
+}
+
+.button-logout {
+    float: right;
+    padding-left: 40%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.button-logout a button {
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+    font-size: 15px;
+    font-family: Nunito, sans-serif;
+}
+
+.button-logout a button:hover {
+    background-color: #b05163;
+}
+
+
+#txtHint {
+    float: left;
+    margin: 10px;
+}
+
+.container a:nth-child(2) button:hover, button:nth-child(3):hover {
+    background-color: #b05163;
+}
+
+/* form popup */
+.form-popup {
+    float: right;
+    display: none;
+    margin-right: 15%;
+    margin-top: 10px;
+}
+
+.form-popup h3, input, button {
+    width: auto;
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+.form-popup h3 {
+    padding-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.form-popup button {
+    font-family: Nunito, sans-serif;
+    margin: 3px 5px;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+}
+
+.form-popup button:hover {
+    background-color: #b05163;
+}
+
+/*user list*/
+.users-list {
+    margin-top: 50px;
+    float: left;
+    width: 22%;
+}
+
+.users-list h3 {
+    width: 99%;
+    font-family: 'Nunito';
+}
+
+.users-list ul {
+    padding: 0;
+    border-right: 1px solid gray;
+}
+
+.users-list li {
+    display: block;
+    list-style: none;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.users-list li button:nth-child(1), button:nth-child(2) {
+    font-family: Nunito, sans-serif;
+    margin: 5px 1%;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+    font-size: 14px;
+}
+
+.users-list li button:nth-child(3) {
+    background-color: #9c7868;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.users-list li button:nth-child(3):hover {
+    border: 2px solid darkred;
+}
+
+.users-list li button:nth-child(1):hover, button:nth-child(2):hover {
+    background-color: #b05163;
+}
+
+/*table with contacts*/
+.table-contacts {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    /*float: left;*/
+    width: 70%;
+    height: 400px;
+    padding-left: 10px;
+    margin-left: 30%;
+}
+
+.table-contacts h3{
+    font-style: italic;
+    font-weight: 500;
+    float: right;
+    margin: 0 5px;
+    font-family: Nunito, sans-serif;
+}
+
+.table-contacts table {
+    width: 99%;
+    height: auto;
+    font-family: Nunito, sans-serif;
+    border: 2px solid black;
+    text-align: left;
+}
+
+.table-contacts th {
+    background-color: #9c7868;
+    text-align: left;
+    border: 2px solid #292929;
+    border-collapse: collapse;
+    padding: 0 5px;
+}
+
+.table-contacts table, td {
+    border: 1px solid #393939;
+    border-collapse: collapse;
+}
+
+.table-contacts td {
+    padding: 0 5px;
+}
+
+.table-contacts table button {
+    font-family: Nunito, sans-serif;
+    margin: 3px 5px;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+}
+
+.table-contacts table button:hover {
+    background-color: #b05163;
+}
+
+/*paginare*/
+.paginare {
+    float: left;
+    font-family: Nunito, sans-serif;
+}
+
+.paginare p {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+}
+
+.paginare button {
+    font-family: Nunito, sans-serif;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+    font-size: 12px;
+
+}
+
+.paginare button:hover {
+    background-color: #b05163;
+}
+.current-page {
+    font-size: 14px;
+    float: right;
+    margin: 6px 6px;
+    font-family: Nunito, sans-serif;
+}

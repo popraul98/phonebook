@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css-index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Log In</title>
+</head>
+<body>
+<div class="container">
+    <form action="" method="post">
+        <h3>REGISTRATION</h3>
+        <div class="container-username">
+            <input type="text" placeholder="Username" name="username" required>
+        </div>
+
+        <div class="container-username">
+            <input type="text" placeholder="Email" name="email-user">
+        </div>
+
+        <div class="container-password">
+            <input type="password" placeholder="Password" name="password" required>
+        </div>
+
+        <div class="container-password">
+            <input type="password" placeholder="Confirm Password" name="re-password" required>
+        </div>
+
+        <button class="container-submit" onclick="PB.createAccount()" type="button"><i class="fas fa-user-plus"></i>
+            Create Account
+        </button>
+        <p class="status-registration">..</p>
+    </form>
+    <hr>
+    <a href="loginIndex.php">
+        <button class="container-submit" type="submit"><i class="fas fa-chevron-left"></i> Back to LogIn</button>
+    </a>
+</div>
+<script src="js/createAccountAjax.js"></script>
+<script src="js/ajaxRequest.js"></script>
+</body>
+</html>

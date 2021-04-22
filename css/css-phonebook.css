@@ -1,0 +1,115 @@
+body {
+    background-image: url("../images/wolf.jpg");
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+.container {
+    margin: 0px 15%;
+    background-color: #d1c7a5;
+    border-radius: 15px;
+    min-height: 400px;
+    height: 100%;
+    padding: 1px 20px;
+}
+
+.container h3 {
+    padding: 5px 5px;
+    font-family: 'Nunito';
+}
+
+.container table button {
+    font-family: Nunito, sans-serif;
+    margin: 3px 5px;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+}
+
+.container table button:hover {
+    background-color: #b05163;
+}
+
+.container a:nth-child(2) button, button:nth-child(3) {
+    font-family: Nunito, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 70%;
+    margin-right: 13%;
+    float: right;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+    font-size: 15px;
+}
+
+.container a:nth-child(2) button:hover, button:nth-child(3):hover {
+    background-color: #b05163;
+}
+
+
+.container table {
+    width: 80%;
+    margin-left: 7%;
+    font-family: Nunito, sans-serif;
+    margin-bottom: 20px;
+}
+
+.container th {
+    background-color: #9c7868;
+    text-align: left;
+    border: 2px solid #292929;
+    border-collapse: collapse;
+    padding: 0 5px;
+}
+
+.container table, td {
+
+    border: 1px solid #393939;
+    border-collapse: collapse;
+    padding: 0 5px;
+}
+
+/* form popup */
+
+.form-popup h3, input, button {
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+.form-popup h3 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.form-popup {
+    display: none;
+    margin-left: 7%;
+    margin-bottom: 10px;
+}
+
+.form-popup button {
+    margin: 1px;
+}
+
+.form-popup button {
+    font-family: Nunito, sans-serif;
+    margin: 3px 5px;
+    border-radius: 5px;
+    border: 2px solid #5A233A;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #5A233A;
+}
+
+.form-popup button:hover {
+    background-color: #b05163;
+}
+
+.users-list{
+
+}
